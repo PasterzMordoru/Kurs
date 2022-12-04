@@ -1,0 +1,91 @@
+.two,
+.one{
+  display: block;
+}
+.three{
+  display: inline-block;
+  vertical-align: middle;
+  width: 200px;
+}
+.four{
+  display: inline-block;
+  vertical-align: middle;
+  width: 150px;
+}
+.logo{
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Google{
+  border-radius: 25px;
+  width: 100%;
+  height: 45px;
+  border: none;
+  box-shadow: 0px 0px 10px lightgrey;
+}
+.name{
+  display: inline-block;
+  width: 150px;
+}
+.sur{
+  display: inline-block;
+  width: 150px;
+  margin-left: 0px;
+}
+.mail{
+  display: block;
+  width: 300px;
+  margin-top: 4px;
+}
+.sign{
+  width: 300px;
+  height: 40px;
+  margin-top: 10px;
+  border-radius: 16px;
+  border:none;
+  background-color: blue;
+  color: white;
+}
+.request{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.pickup{
+  display: block;
+  width: 100%;
+  height: 45px;
+  margin-bottom: 8px;
+  border: none;
+  background-color: whitesmoke;
+  color: gainsboro;
+  
+}
+.destination{
+  display: block;
+  width: 100%;
+  height: 45px;
+  border: none;
+  background-color: whitesmoke;
+  color: gainsboro;
+  margin-bottom: 40px;
+}
+.now{
+  display: inline-block;
+  width: 35%;
+  background-color: black;
+  color: white;
+  border: none;
+  height: 45px;
+}
+.later{
+  display: inline-block;
+  width: 35%;
+  height: 45px;
+  border: none;
+  background-color: whitesmoke;
+  color: black;
+  margin-left: 20px;
+}

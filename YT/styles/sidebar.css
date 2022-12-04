@@ -1,0 +1,39 @@
+.sidebar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: white;
+  width: 70px;
+  border-right-width:1px ;
+  border-right-style: solid;
+  border-right-color:gainsboro ;
+  z-index: 2;
+  padding-top: 5px;
+}
+
+.sidebar-link{
+  height: 74px;
+  margin-bottom: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sidebar-link:hover{
+  background-color: gainsboro;
+  cursor: pointer;
+}
+.sidebar-link img{
+height: 24px;
+margin-bottom: 4px;
+}
+.sidebar-link div{
+  font-size: 10px;
+}
+
+@media all and (max-width:750px){
+  .sidebar{
+    opacity: 0;
+  }
+}

@@ -1,0 +1,38 @@
+*{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.cat-photo{
+  width: 100px;
+  border-radius: 120px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.cat{
+  height: 400px;
+  vertical-align: middle;
+}
+.cat-dsc{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.cat-info{
+  display: inline-block;
+  vertical-align: middle;
+}
+.oliver{
+  font-weight: bold;
+}
+.the,
+.popular{
+  color: gray;
+}
+.follow{
+  background-color: lightblue;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  height: 30px;
+  margin-left: 100px;
+}

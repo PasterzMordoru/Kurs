@@ -1,0 +1,156 @@
+.search-bar{
+  flex: 1;
+  height: 36px;
+  font-size: 16px;
+  padding-left: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gainsboro;
+  border-radius: 1px;
+  box-shadow: inset 0px 0px 1px rgba(0, 0, 0, 0.5);
+  width: 0;
+  min-width: 50px;
+}
+.search-bar::placeholder{
+  font-size: 16px;
+}
+.header{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style:solid ;
+  border-bottom-color:gainsboro ;
+  z-index: 1;
+}
+.left-section{
+  display: flex;
+  align-items: center;
+  
+}
+.middle-section{
+  flex: 1;
+  margin-left: 80px;
+  margin-right: 35px;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  
+}
+.right-section{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+.hamburger{
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.yt-logo{
+  height: 20px;
+}
+.search{
+  height: 40px;
+  width: 66px;
+  background-color: rgb(245, 245, 245);
+  border-width:1px;
+  border-style: solid;
+  border-color: gainsboro; 
+  margin-left: -1px;
+  margin-right: 10px;
+  border-radius: 1px;
+  
+  
+}
+.search .tooltip,
+.voice-search .tooltip,
+.upload .tooltip,
+.apps .tooltip,
+.notification .tooltip {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.search,
+.voice-search,
+.upload,
+.apps,
+.notification{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.search:hover .tooltip,
+.voice-search:hover .tooltip,
+.upload:hover .tooltip,
+.apps:hover .tooltip, 
+.notification:hover .tooltip{
+  opacity: 1;
+}
+.search-icon{
+ margin-top: 3px;
+  height: 25px;
+}
+.voice-search{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border-style: none;
+  background-color: rgb(245, 245, 245);
+  
+}
+
+.voice-search-icon{
+  height: 24px;
+  margin-top: 4px;
+  
+}
+.upload-icon{
+  height: 24px;
+}
+.yt-apps-icon{
+  height: 24px;
+}
+
+
+.notifications-counter{
+  position: absolute;
+  background-color: rgb(200,0,0);
+  color: white;
+  right: -7px;
+  top: -3px;
+  font-size: 10px;
+  padding: 3px 6px 3px 6px;
+  border-radius: 80px;
+}
+.notification-icon{
+  height: 24px;
+}
+.channel-pic-icon{
+  height: 32px;
+  border-radius: 16px;
+
+}
